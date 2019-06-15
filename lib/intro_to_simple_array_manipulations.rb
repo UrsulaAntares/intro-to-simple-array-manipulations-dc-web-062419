@@ -1,5 +1,6 @@
-def using_push(array, next_artist)
-  artists = ["Hozier", "Ariana Grande", "Usher"]
-  next_artist = "Beyonce"
-  artists.push(next_artist)
+def using_push(array, additional_item)
+#  array = []
+#  next_artist = "Beyonce"
+  updated_array = array.push(additional_item)
+  updated_array
 end
